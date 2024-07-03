@@ -60,7 +60,7 @@ const config: DocsThemeConfig = {
     </svg>
   ),
   project: {
-    link: "https://github.com/worldassociation/world-association",
+    link: "https://github.com/blaisekonya",
   },
   banner: {
     text: <span>Public preview. For demo and testing only.</span>,
@@ -95,8 +95,7 @@ const config: DocsThemeConfig = {
     ),
   },
   search: { placeholder: "Search..." },
-  docsRepositoryBase:
-    "https://github.com/worldassociation/world-association/tree/main/apps/docs",
+  docsRepositoryBase: "https://github.com/blaisekonya/web/tree/main",
   footer: {
     text: "World Association",
   },
