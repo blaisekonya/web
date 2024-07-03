@@ -1,0 +1,24 @@
+/* Colors */
+
+:root {
+  --background: #ffffff;
+  --foreground: #020306;
+  --card: #ffffff;
+  --card-foreground: #020306;
+  --popover: #ffffff;
+  --popover-foreground: #020306;
+  --primary: #1a1a1d;
+  --primary-foreground: #fcfcfc;
+  --secondary: #f2f2f5;
+  --secondary-foreground: #1a1a1d;
+  --muted: #f2f2f5;
+  --muted-foreground: #75767b;
+  --accent: #f2f2f5;
+  --accent-foreground: #1a1a1d;
+  --destructive: #f44336;
+  --destructive-foreground: #fcfcfc;
+  --border: #e6e6eb;
+  --input: #e6e6eb;
+  --ring: #1a1a1d;
+  --radius: 1rem;
+}
