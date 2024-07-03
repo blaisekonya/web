@@ -75,11 +75,11 @@ const config: DocsThemeConfig = {
           label: "Sign in",
           style: {
             height: "48px",
-            color: "#fcfcfc",
-            backgroundColor: "#1A1A1D",
+            color: "#1a1a1d",
+            backgroundColor: "#ffffff",
+            border: "1px solid #e6e6eb",
             fontSize: "14px",
-            borderRadius: "3rem",
-            padding: "16px",
+            borderRadius: "2rem",
           },
         }}
         connectModal={{ showThirdwebBranding: false }}
