@@ -1,4 +1,15 @@
-# Welcome to the World Association Documentation
+---
+title: Welcome to the World Association Documentation
+description: Your first document
+---
+
+import { Steps } from "nextra/components";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../../components/ui/accordion";
 
 ## Overview
 
@@ -12,9 +23,20 @@ As advanced AI and other technologies evolve, there is a risk of increasing glob
 
 ### Joining the Association
 
-1. **Sign in**: Sign in easily using social login, email, mobile number, passkey, or a crypto account.
-2. **Verify your uniqueness**: Complete identity verification using [zkMe’s MeID](https://zk.me/did-solution), ensuring your anonymity while confirming you are a real and unique human.
-3. **Accept the constitution**: Review and accept our [open-source constitution](https://github.com/worldassociation/world-association/blob/main/organization/constitution/constitution.md) to join the association.
+<Steps>
+### **Sign in**
+
+Sign in easily using social login, email, mobile number, passkey, or a crypto account.
+
+### **Verify your uniqueness**
+
+Complete identity verification using [zkMe’s MeID](https://zk.me/did-solution), ensuring your anonymity while confirming you are a real and unique human.
+
+### **Accept our constitution**
+
+Review and accept our [constitution](https://github.com/worldassociation/world-association/blob/main/organization/constitution/constitution.md) to join the association.
+
+</Steps>
 
 We maintain your privacy with homomorphic encryption-based proof of personhood checks, allowing one-time membership while ensuring democratic decision-making.
 
@@ -47,23 +69,43 @@ By providing a basic income, we aim to reduce economic inequality, promote globa
 
 ## Contributing
 
-1. **Contribution Portal**: Explore opportunities to contribute at our [Contribution Portal](https://contribute.worldassociation.org/).
-2. **Participate in development**: Developers can contribute to our open-source codebase. Visit our [GitHub repository](https://github.com/worldassociation/world-association) to get started.
-3. **Bug bounties and grants**: Earn rewards by identifying and fixing bugs or starting valuable projects.
+- **Contribution Portal**: Explore opportunities to contribute at our [Contribution Portal](https://contribute.worldassociation.org/).
+- **Participate in development**: Developers can contribute to our open-source codebase. Visit our [GitHub repository](https://github.com/worldassociation/world-association) to get started.
+- **Bug bounties and grants**: Earn rewards by identifying and fixing bugs or starting valuable projects.
 
 ## FAQ
 
-**What is the world drachma?**  
-The world drachma is our digital currency used to distribute the global basic income.
-
-**How is anonymity ensured?**  
-Anonymity is ensured through zkMe’s proof of personhood checks using homomorphic encryption. [Learn more](https://zk.me/did-solution).
-
-**How can I participate in governance?**  
-By joining the platform, you can create proposals and vote on existing ones using Snapshot. Visit our Snapshot space [here](https://snapshot.org/#/worldassociation.eth).
-
-**Is the platform free to use?**  
-Yes, the World Association is free to use. Members receive voting tokens and basic income streams upon joining.
+<Accordion type="single" collapsible className="w-full">
+  <AccordionItem value="what-is-the-world-drachma">
+    <AccordionTrigger>What is the world drachma?</AccordionTrigger>
+    <AccordionContent>
+      The world drachma is our digital currency used to distribute the global
+      basic income.
+    </AccordionContent>
+  </AccordionItem>
+  <AccordionItem value="how-is-anonymity-ensured">
+    <AccordionTrigger>How is anonymity ensured?</AccordionTrigger>
+    <AccordionContent>
+      Anonymity is ensured through zkMe’s proof of personhood checks using
+      homomorphic encryption. [Learn more](https://zk.me/did-solution).
+    </AccordionContent>
+  </AccordionItem>
+  <AccordionItem value="how-can-i-participate-in-governance">
+    <AccordionTrigger>How can I participate in governance?</AccordionTrigger>
+    <AccordionContent>
+      After joining the Association, you can create proposals and vote on
+      existing ones using Snapshot. Visit our Snapshot space
+      [here](https://snapshot.org/#/worldassociation.eth).
+    </AccordionContent>
+  </AccordionItem>
+  <AccordionItem value="is-this-free-to-use">
+    <AccordionTrigger>Is this free to use?</AccordionTrigger>
+    <AccordionContent>
+      Yes, the World Association is free to use. Members receive voting tokens
+      and basic income streams upon joining.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
 
 ## Contact
 
