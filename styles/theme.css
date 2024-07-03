@@ -99,6 +99,10 @@ nav div button {
   color: #1a1a1d !important;
 }
 
+nav a {
+  color: #555 !important;
+}
+
 .nx-shadow-\[0_2px_4px_rgba\(0\,0\,0\,\.02\)\,0_1px_0_rgba\(0\,0\,0\,\.06\)\],
 .nx-shadow-lg {
   box-shadow: none;
