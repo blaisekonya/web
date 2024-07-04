@@ -44,8 +44,8 @@ export default function Hero() {
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Join us anonymously and watch your basic income streamed
-                      to you by the second.
+                      Join us and get your basic income simply by proving that
+                      you are a real and unique human.
                     </p>
                   </CardContent>
                 </div>
