@@ -44,8 +44,8 @@ export default function Hero() {
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Join us anonymously and get a basic income streamed to you
-                      by the second.
+                      Join us anonymously and watch your basic income streamed
+                      to you by the second.
                     </p>
                   </CardContent>
                 </div>
@@ -89,8 +89,8 @@ export default function Hero() {
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Create and vote on proposals addressing the most pressing
-                      problems of humanity.
+                      Create and vote on proposals addressing humanity's most
+                      pressing challenges.
                     </p>
                   </CardContent>
                 </div>
