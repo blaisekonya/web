@@ -1,5 +1,5 @@
 import React from "react";
-import { ConnectButton, lightTheme, useActiveAccount } from "thirdweb/react";
+import { ConnectButton, useActiveAccount } from "thirdweb/react";
 import { chain, client } from "../lib/constants";
 import "@zkmelabs/widget/dist/style.css";
 import { fetchAccessToken } from "../lib/fetchZkMeAccessToken";
@@ -15,9 +15,6 @@ import {
 
 export default function Hero() {
   const account = useActiveAccount();
-  const customTheme = lightTheme({
-    colors: { borderColor: "#e6e6eb", modalBg: "#ffffff" },
-  });
 
   return (
     <>
@@ -28,24 +25,6 @@ export default function Hero() {
         style={{ minHeight: "calc(100vh - 128px)" }}
       >
         <div className={"hero-text text-center"}>
-          {/* <div className="block mt-8">
-                <ConnectButton
-                  client={client}
-                  chain={chain}
-                  theme={"light"}
-                  connectButton={{
-                    label: "Sign in",
-                    style: {
-                      backgroundColor: "#1a1a1d",
-                      color: "#fcfcfc",
-                      padding: "16px",
-                      alignItems: "center",
-                      borderRadius: "1rem",
-                    },
-                  }}
-                  connectModal={{ showThirdwebBranding: false }}
-                />
-              </div> */}
           <div className="flex flex-col items-center">
             <h1 className="text-[13vw] leading-tight pt-32 md:pt-0">
               World Association
