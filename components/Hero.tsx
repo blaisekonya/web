@@ -40,12 +40,12 @@ export default function Hero() {
               <Card className="flex flex-col justify-between h-full">
                 <div>
                   <CardHeader>
-                    <CardTitle>Join us</CardTitle>
+                    <CardTitle>Join</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Join us and claim your basic income simply by proving that
-                      you are a real and unique human.
+                      Join us and claim your basic income by proving that you
+                      are a real and unique human.
                     </p>
                   </CardContent>
                 </div>
@@ -85,12 +85,12 @@ export default function Hero() {
               <Card className="flex flex-col justify-between h-full">
                 <div>
                   <CardHeader>
-                    <CardTitle>Experiment</CardTitle>
+                    <CardTitle>Vote</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Create and vote on proposals addressing humanity's most
-                      pressing global challenges.
+                      Create and vote on proposals addressing the most pressing
+                      problems of humanity.
                     </p>
                   </CardContent>
                 </div>
