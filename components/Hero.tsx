@@ -40,12 +40,12 @@ export default function Hero() {
               <Card className="flex flex-col justify-between h-full">
                 <div>
                   <CardHeader>
-                    <CardTitle>Join</CardTitle>
+                    <CardTitle>Join us</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Join us and get your basic income simply by proving that
-                      you are a real and unique human.
+                      Become a member and receive a basic income simply by
+                      proving that you are a unique human.
                     </p>
                   </CardContent>
                 </div>
@@ -57,7 +57,7 @@ export default function Hero() {
                         launchZkMeWidget(account.address, fetchAccessToken)
                       }
                     >
-                      Prove your personhood
+                      Verify your identity
                     </Button>
                   ) : (
                     <ConnectButton
@@ -65,7 +65,7 @@ export default function Hero() {
                       chain={chain}
                       theme={"light"}
                       connectButton={{
-                        label: "Prove your personhood",
+                        label: "Verify your identity",
                         style: {
                           width: "100%",
                           height: "48px",
@@ -85,11 +85,11 @@ export default function Hero() {
               <Card className="flex flex-col justify-between h-full">
                 <div>
                   <CardHeader>
-                    <CardTitle>Vote</CardTitle>
+                    <CardTitle>Participate</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Create and vote on proposals addressing humanity's most
+                      Create and vote on proposals that tackle humanity's most
                       pressing challenges.
                     </p>
                   </CardContent>
@@ -104,7 +104,7 @@ export default function Hero() {
                       )
                     }
                   >
-                    Open Snapshot
+                    Explore proposals
                   </Button>
                 </CardFooter>
               </Card>
@@ -117,8 +117,8 @@ export default function Hero() {
                   </CardHeader>
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
-                      Help us improve the World Association and get rewarded in
-                      our digital currency.
+                      Improve the World Association and earn rewards in our
+                      digital currency.
                     </p>
                   </CardContent>
                 </div>
