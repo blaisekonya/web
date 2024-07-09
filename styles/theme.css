@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 * {
-  background-color: var(--blackground);
-  color: var(--primary);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -76,17 +74,9 @@
   font-family: "HarmonyOS Sans Regular", Inter, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-  .nx-rounded-xl {
-    border-radius: 5px;
-  }
 }
 
 /* Main nav */
-
-.nextra-banner-container * {
-  color: var(--primary-foreground);
-}
 
 .nextra-nav-container .nx-flex:hover {
   opacity: 1;
@@ -95,27 +85,7 @@
 nav a span,
 nav div button {
   font-family: "HarmonyOS Sans Medium";
-  padding: 0 16px;
-  color: #1a1a1d !important;
-}
-
-nav a {
-  color: #555 !important;
-}
-
-.nx-shadow-\[0_2px_4px_rgba\(0\,0\,0\,\.02\)\,0_1px_0_rgba\(0\,0\,0\,\.06\)\],
-.nx-shadow-lg {
-  box-shadow: none;
-}
-
-/* detailsButton */
-.css-2mxilq {
-  min-width: 140px !important;
-}
-
-.css-2mxilq:hover,
-.css-bedeeg:hover {
-  border-color: #005ce6 !important;
+  padding: 0 8px;
 }
 
 /* Hero */
@@ -123,16 +93,6 @@ nav a {
 #idkit-widget {
   z-index: 100000;
   position: fixed;
-}
-
-.hero-text p {
-  font-size: 18px !important;
-}
-
-@media screen and (min-width: 425px) {
-  .hero-text h1 {
-    font-size: 56px !important;
-  }
 }
 
 /* Links */
@@ -157,8 +117,4 @@ h3 {
 
 .nextra-toc .top-divider {
   margin-top: 1.5em;
-}
-
-.connectButtonHover:hover {
-  border-color: #3b82f6 !important;
 }

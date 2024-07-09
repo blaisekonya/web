@@ -2,8 +2,6 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
-import { ConnectButton } from "thirdweb/react";
-import { client, chain } from "./lib/constants";
 
 const config: DocsThemeConfig = {
   useNextSeoProps() {
@@ -36,7 +34,7 @@ const config: DocsThemeConfig = {
           property="og:description"
           content={
             frontMatter.description ||
-            "The democratic United Nations alternative."
+            "Democratic United Nations alternative with an own digital currency."
           }
         />
         <link
@@ -65,37 +63,9 @@ const config: DocsThemeConfig = {
   banner: {
     text: <span>Public preview. For demo and testing only.</span>,
   },
-  navbar: {
-    extraContent: (
-      <ConnectButton
-        client={client}
-        chain={chain}
-        theme={"light"}
-        connectButton={{
-          label: "Sign in",
-          style: {
-            height: "48px",
-            minWidth: "96px",
-            color: "#1a1a1d",
-            backgroundColor: "#ffffff",
-            border: "1px solid #e6e6eb",
-            fontSize: "14px",
-          },
-        }}
-        connectModal={{ showThirdwebBranding: false }}
-        detailsButton={{
-          style: {
-            height: "52px",
-            color: "#1a1a1d",
-            backgroundColor: "#ffffff",
-            borderColor: "#e6e6eb",
-          },
-        }}
-      />
-    ),
-  },
   search: { placeholder: "Search..." },
   docsRepositoryBase: "https://github.com/blaisekonya/web/tree/main",
+  chat: { link: "https://discord.gg/J9A4g6axjR" },
   footer: {
     text: "World Association",
   },
@@ -114,7 +84,7 @@ const config: DocsThemeConfig = {
     text: "Edit this page on GitHub",
   },
   gitTimestamp: null,
-  darkMode: false,
+  darkMode: true,
 };
 
 export default config;
