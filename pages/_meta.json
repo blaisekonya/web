@@ -1,10 +1,7 @@
 {
   "index": {
     "title": "World Association",
-    "display": "hidden",
-    "theme": {
-      "breadcrumb": false
-    }
+    "display": "hidden"
   },
 
   "vote": {
