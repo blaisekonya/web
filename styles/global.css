@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400..700&display=swap");
 @import url("colors.css");
@@ -11,6 +7,40 @@
 .nextra-content h2 ~ p,
 .nextra-content h3 ~ p {
   margin-top: 1rem;
+}
+
+/* Set colors for common text elements */
+p,
+table,
+ol,
+ul {
+  color: var(--op-neutral-800);
+}
+
+:is(html[class~="dark"]) p {
+  color: var(--op-neutral-200);
+}
+
+:is(html[class~="dark"]) table {
+  color: var(--op-neutral-200);
+}
+
+:is(html[class~="dark"]) ol {
+  color: var(--op-neutral-200);
+}
+
+:is(html[class~="dark"]) ul {
+  color: var(--op-neutral-200);
+}
+
+/* Restyle Nextra Steps */
+.nextra-steps h3:before {
+  margin-top: -1px !important;
+  color: var(--op-neutral-600) !important;
+}
+
+:is(html[class~="dark"]) .nextra-steps h3:before {
+  color: var(--op-neutral-300) !important;
 }
 
 /* Custom div that can contain Nextra images */
