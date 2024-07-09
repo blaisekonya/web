@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "./ui/button";
 import { IDKitWidget, VerificationLevel } from "@worldcoin/idkit";
 
 const WorldcoinWidget = ({ verifyProof, onSuccess }) => {
@@ -12,8 +11,7 @@ const WorldcoinWidget = ({ verifyProof, onSuccess }) => {
       onSuccess={onSuccess}
     >
       {({ open }) => (
-        <Button
-          variant="outline"
+        <button
           className="text-left flex gap-4 justify-start w-full hover:border-blue-500 hover:bg-transparent"
           onClick={open}
         >
@@ -24,7 +22,7 @@ const WorldcoinWidget = ({ verifyProof, onSuccess }) => {
             height="24"
           />
           <p>Join with Worldcoin</p>
-        </Button>
+        </button>
       )}
     </IDKitWidget>
   );
