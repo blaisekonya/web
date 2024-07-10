@@ -30,7 +30,8 @@ export default function Hero() {
               World Association
             </h1>
             <p className="text-[#555] px-6 pt-4 lg:pt-2 pb-24 lg:pb-4 max-w-[800px]">
-              The democratic United Nations alternative.
+              Democratic United Nations alternative with an own digital
+              currency.
             </p>
           </div>
         </div>
@@ -104,7 +105,7 @@ export default function Hero() {
                       )
                     }
                   >
-                    Open Snapshot
+                    Explore proposals
                   </Button>
                 </CardFooter>
               </Card>
