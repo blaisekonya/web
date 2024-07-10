@@ -2,6 +2,7 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
+import HeaderConnectButton from "./components/HeaderConnectButton";
 
 const config: DocsThemeConfig = {
   useNextSeoProps() {
@@ -62,6 +63,9 @@ const config: DocsThemeConfig = {
   },
   banner: {
     text: <span>Public preview. For demo and testing only.</span>,
+  },
+  navbar: {
+    extraContent: <HeaderConnectButton />,
   },
   search: { placeholder: "Search..." },
   docsRepositoryBase: "https://github.com/blaisekonya/web/tree/main",
