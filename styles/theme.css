@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 * {
-  background-color: var(--blackground);
-  color: var(--primary);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -96,21 +94,15 @@ nav a span,
 nav div button {
   font-family: "HarmonyOS Sans Medium";
   padding: 0 16px;
-  color: #1a1a1d !important;
 }
 
-nav a {
-  color: #555 !important;
-}
-
-.nx-shadow-\[0_2px_4px_rgba\(0\,0\,0\,\.02\)\,0_1px_0_rgba\(0\,0\,0\,\.06\)\],
-.nx-shadow-lg {
+.nx-shadow-\[0_2px_4px_rgba\(0\,0\,0\,\.02\)\,0_1px_0_rgba\(0\,0\,0\,\.06\)\] {
   box-shadow: none;
 }
 
 /* detailsButton */
 .css-2mxilq {
-  min-width: 140px !important;
+  min-width: 144px !important;
 }
 
 .css-2mxilq:hover,
@@ -145,6 +137,11 @@ h1,
 h2,
 h3 {
   font-family: "HarmonyOS Sans Bold";
+  color: var(--foreground);
+}
+
+:is(html[class~="dark"]) h1 {
+  color: var(--primary-foreground);
 }
 
 /* Table of contents */
