@@ -30,7 +30,7 @@ export default function Hero() {
               Crypto-powered global democracy
             </h1>
             <p className="text-[#555] px-6 pt-4 lg:pt-2 pb-24 lg:pb-4 max-w-[640px]">
-              Join the World Association to get your basic income and start
+              Join the World Association, get your basic income, and start
               shaping the future of humanity.
             </p>
           </div>
