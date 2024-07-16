@@ -1,4 +1,3 @@
-import React from "react";
 import { IDKitWidget, VerificationLevel } from "@worldcoin/idkit";
 
 const WorldcoinWidget = ({ verifyProof, onSuccess }) => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { ConnectButton, useActiveAccount } from "thirdweb/react";
 import { chain, client } from "../lib/constants";
 
