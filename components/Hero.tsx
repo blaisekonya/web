@@ -29,9 +29,9 @@ export default function Hero() {
             <h1 className="text-[13vw] leading-tight pt-32 md:pt-0">
               Uniting humanity
             </h1>
-            <p className="text-[#555] px-6 pt-4 lg:pt-2 pb-24 lg:pb-4 max-w-[640px]">
-              Join the World Association, get your basic income, and start
-              experimenting with global democracy.
+            <p className="text-[#555] px-6 pt-4 pb-24 lg:pb-4 max-w-[640px]">
+              Join the World Association, get your basic income, and experiment
+              with global democracy.
             </p>
           </div>
         </div>
