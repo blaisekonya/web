@@ -27,11 +27,11 @@ export default function Hero() {
         <div className={"hero-text text-center"}>
           <div className="flex flex-col items-center">
             <h1 className="text-[13vw] leading-tight pt-32 md:pt-0">
-              Crypto-powered global democracy
+              Uniting humanity
             </h1>
             <p className="text-[#555] px-6 pt-4 lg:pt-2 pb-24 lg:pb-4 max-w-[640px]">
               Join the World Association, get your basic income, and start
-              shaping the future of humanity.
+              experimenting with global democracy.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Hero() {
                   <CardContent>
                     <p className="card-content text-[14px] text-[#555]">
                       Create and vote on proposals addressing humanity's most
-                      pressing challenges.
+                      pressing global challenges.
                     </p>
                   </CardContent>
                 </div>
